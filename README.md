@@ -1,5 +1,5 @@
 [How to use this template](./.github/template/README.md)
 
-# Project Name
+# A5 - FrontEndMentor.io
 
-A brief description about your project.
+Frontend Mentor challenge: Stats preview card component
