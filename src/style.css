@@ -6,7 +6,7 @@ html {
 }
 
 header {
-    background: rgb(95, 0, 133) ;
+  background: rgb(95, 0, 133);
 }
 
 figure {
@@ -14,7 +14,7 @@ figure {
 }
 
 img {
-    display: block;
+  display: block;
   width: 100%;
   opacity: 0.47;
 }
@@ -35,18 +35,18 @@ ul {
 
 h1 {
   color: white;
-  font-family: 'Roboto', sans-serif ;
+  font-family: "Roboto", sans-serif;
   font-size: xx-large;
   font-weight: bolder;
 }
 
 h1 span {
-  color:rgb(183, 0, 255);
+  color: rgb(183, 0, 255);
 }
 
 .li-headers {
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif ;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: x-large;
 }
@@ -56,26 +56,56 @@ section {
 }
 
 p {
-    margin-bottom: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 section ul {
-    padding: 0;
+  padding: 0;
 }
 
 section li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center
+  text-align: center;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
 .paragraph-and-list {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(255, 255, 255, 0.562);
   line-height: 1.75rem;
   font-weight: 530;
   font-size: medium;
+}
+
+@media (min-width: 1400px) {
+  html {
+    margin-top: 17rem;
+    margin-right: 17rem;
+    margin-left: 17rem;
+    margin-bottom: 17rem;
+  }
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  figure {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  section {
+    text-align: left;
+    margin: 3rem;
+    width: 50%;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  section li {
+    text-align: left;
+  }
 }
